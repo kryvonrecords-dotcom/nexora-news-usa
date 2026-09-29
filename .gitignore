@@ -1,0 +1,54 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Android build outputs & local caches
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.idea/
+.cxx/
+
+# Local/private Firebase configuration
+android/app/google-services.json
+
+# Local/private VAPID configuration
+data/vapid_keys.json
+
+# Local backups, ZIPs and temporary files
+_backup-web-antes-do-zip/
+_zip-atualizado/
+backup-sem-anuncios-web/
+backups/
+*.zip
+*.backup
+*.backup-*
+*.bak
+
+# Temporary diagnostic/test files
+kotlin-error.txt
+test-supabase.ts
+test-upload.png
+teste-notificacao.png
+verificar-backup.ts
+backup-to-supabase.ts
+android/Task
+
+# Local backups - never publish
+*.before-*
+*.backup*
+*.bak
+data/nexora_news.json
+
+# Local database and secrets
+data/*
+!data/.gitkeep
